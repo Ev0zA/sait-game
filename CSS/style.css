@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #f0f0f0;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+
+.intro {
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 3px solid #ff4757;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 2.8rem;
+    color: #fff;
+    text-shadow: 0 2px 10px rgba(255, 71, 87, 0.5);
+    letter-spacing: 1px;
+}
+
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.intro2 {
+    text-align: center;
+    margin: 30px 0 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.intro2 h2 {
+    font-size: 1.8rem;
+    color: #70a1ff;
+    font-weight: 300;
+}
+
+
+.new-products, .popular {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.new-products:hover, .popular:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+
+.new-products {
+    border-left-color: #1dd1a1;
+}
+
+.popular {
+    border-left-color: #ff9f43;
+}
+
+
+.new-products > span, .popular > span {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.new-products > span {
+    background: linear-gradient(90deg, #1dd1a1, #10ac84);
+}
+
+.popular > span {
+    background: linear-gradient(90deg, #ff9f43, #ff793f);
+}
+
+
+.new-products p, .popular p {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border-left: 3px solid;
+    transition: background 0.3s ease;
+}
+
+.new-products p:hover, .popular p:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.new-products p {
+    border-left-color: rgba(29, 209, 161, 0.7);
+}
+
+.popular p {
+    border-left-color: rgba(255, 159, 67, 0.7);
+}
+
+
+.popular p strong {
+    color: #ff9f43;
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.new-products p:before {
+    content: "🎮";
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.popular p:before {
+    content: "🔥";
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.popular p:first-of-type:before {
+    content: "🏆";
+}
