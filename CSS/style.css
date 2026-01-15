@@ -158,17 +158,17 @@ section {
 }
 
 .btn2 {
-    padding: 8px 15px;  
+    padding: 16px 20px;  
     background-color: #ff4757;
     color: black;
     text-decoration: none;  
     border: none;  
-    border-radius: 4px;  
+    border-radius: 20px;  
     font-weight: bold;  
     display: inline-block;
     position: fixed;
-     border-radius: 100px;
-    top: 730px;
-    left: 1430px;
+     border-radius: 200px;
+    top: 700px;
+    left: 1400px;
      z-index: 2000;
 }
