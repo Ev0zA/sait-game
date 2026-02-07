@@ -172,3 +172,7 @@ section {
     left: 1400px;
      z-index: 2000;
 }
+
+.video {
+    border-style: none;
+}
